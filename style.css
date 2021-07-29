@@ -1,0 +1,78 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* custom button */
+.btn-color{
+    background-color: #e76f51;
+}
+
+.bg-btn{
+    background-color: #e76f51;
+    padding: 10px 40px;
+}
+
+.ctm-btn{
+    color: #e76f51;
+    border: 2px solid #e76f51;
+    padding: 10px;
+}
+
+.ctm-btn:hover{
+    background-color: #e76f51;
+    color: white;
+    transition: ease-in-out 1s;
+}
+
+/* header */
+.bg-color{
+    background-color: #264653;
+}
+
+/* Fetured Bikes 2021 */
+.font-color{
+    color: #e76f51;
+    position: relative;
+}
+
+.font-color:after{
+    position: absolute;
+    content: '';
+    height: 2px;
+    bottom: -4px; 
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 5%;
+    background: #e76f51;
+}
+
+.g-scale{
+    filter: grayscale(100%);
+}
+
+/* Happy Clients says */
+.Clients-says{
+    color: #e76f51;
+}
+
+.fill-color{
+    color: #e76f51;
+}
+
+.fill-out{
+    color: #e76f51;
+}
+
+.r-miles{
+    text-decoration: none;
+    color: #23A6F0;
+}
+
+/* footer */
+.bg-footer{
+    background-color: #0b0d17;
+}
